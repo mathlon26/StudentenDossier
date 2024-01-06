@@ -1,0 +1,9 @@
+@auth
+<li>
+    <h1>logout</h1>
+</li>
+@else
+<li>
+    <h1>login</h1>
+</li>
+@endauth

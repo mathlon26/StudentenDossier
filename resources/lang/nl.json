@@ -1,0 +1,18 @@
+{
+    "lang": "nl",
+    "lang_to_switch": "en",
+
+    "title_prefix": "UHasselt | ",
+    "dossier_title_suffix": "Studenten Dossier",
+    "login_title_suffix": "Login",
+
+    "login_back": "Ga terug naar UHasselt.be",
+    "login_forgot": "Student-ID of wachtwoord vergeten?",
+    "login_click": "Klik",
+    "login_here": "hier",
+    "login_or": "Of download de",
+    "login_password": "Wachtwoord",
+
+
+    "welcome_word": "Welkom"
+}

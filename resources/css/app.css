@@ -1,0 +1,47 @@
+@import url("./navbar/toggle-icon.css");
+@import url("./navbar/navbar.css");
+@import url("./navbar/logout_partial.css");
+@import url("./account/login/login.css");
+
+
+/* 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*/
+:root {
+    --red: #E03131;
+    --white: #FEFEFE;
+    --black: #1D1D1B;
+
+    --nav-a-hover: var(--white); 
+}
+
+.red {
+    color: var(--red) !important;
+}
+.white {
+    color: var(--white) !important;
+}
+.black {
+    color: var(--black) !important;
+}
+
+.red-bg {
+    background-color: var(--red) !important;
+}
+.white-bg {
+    background-color: var(--white) !important;
+}
+.black-bg {
+    background-color: var(--black) !important;
+}
+html {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background-color: var(--white);
+}

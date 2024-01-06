@@ -1,0 +1,117 @@
+.login-container-main {
+    background-image: url("http://127.0.0.1:8000/img/auth-bg.png");
+    background-size: cover;
+    background-attachment: fixed;
+    max-height: calc(100vh - var(--nav-height));
+    min-height: calc(100vh - var(--nav-height));;
+    overflow: hidden;
+}
+
+#goBack {
+    max-height: 100px;
+    background-color: white;
+    font-size: 25pt;
+    font-weight: 600;
+    padding: 10px;
+    margin: 30px 0px 0px 30px;
+    max-width: 350px;
+    line-height: 1;
+    text-align: end;
+    border-radius: 0px 50px 50px 0px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.goBack-img {
+    height: 100%;
+    padding: 5px 0px 5px 5px ;
+}
+
+.goBack-container {
+    display: flex;
+}
+
+#login_form .login_text_input {
+    height: 56px;
+    width: 283px;
+    border: none;
+    border-radius: 16px;
+    outline: none;
+    background: none;
+    padding: 0.6rem 1.2rem;
+    font-weight: 500;
+    font-size: 0.95rem;
+    letter-spacing: 0.5px;
+    border-radius: 25px;
+    transition: 0.3s;
+    
+}
+
+#login_form .login_text_input::placeholder {
+    font-size: 14pt;
+    border-bottom: 1px solid var(--clr-app-300);
+    padding-bottom: 10px; /* Adjust the value to move the border more downwards */
+    padding-left: 10px;
+}
+
+#studentid {
+    margin-top: 75px;
+}
+#password {
+    margin-top: 29px;
+}
+.login__container {
+    background-color: white;
+    border-radius: 46px;
+    max-width: 390px;
+    max-height: 735;
+    padding: 46px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#login_form {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#login_form img {
+    height: 70px;
+}
+#login_form a{
+    text-decoration: underline;
+}
+#login_form p {
+    margin-top: 62px;
+}
+
+#login_form button {
+    margin-top: 31px;
+    background-color: var(--clr-app-200);
+    border: none;
+    width: 328px;
+    height: 62px;
+    border-radius: 16px;
+    font-size: 16pt;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+#login_form button:hover {
+    cursor: pointer;
+    background-color: var(--clr-app-300);
+    
+}
+
+#login_form label{
+    margin-top: 30px;
+    padding-right: 5px;
+}
+#publicChecker {
+    margin-top: 36px;
+}
