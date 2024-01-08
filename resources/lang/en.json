@@ -5,6 +5,14 @@
     "title_prefix": "UHasselt | ",
     "dossier_title_suffix": "Student File",
     "login_title_suffix": "Login",
+    "account_title_suffix": "Account",
+
+    "dossier_nav_start": "Start",
+    "dossier_nav_planning": "Class Schedule",
+    "dossier_nav_navigate": "Navigate To",
+    "dossier_nav_courses": "Courses",
+    "dossier_nav_notifications": "Notifications",
+
 
     "login_back": "Go back to UHasselt.be",
     "login_forgot": "Forgot Student-ID or password?",

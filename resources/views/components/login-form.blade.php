@@ -16,12 +16,12 @@
 <div class="container | drop-shadow-100 | login__container">
     <form id="login_form" action="authenticate" method="post">
         @csrf
-        <img src="{{asset("img/logo.jpg")}}" alt="Logo">
-        <input placeholder="Student-ID" name="studentid" class="login_text_input drop-shadow" value="{{old('studentid')}}" type="text" id="studentid">
+        <img src="{{asset("img/uhasselt_logo_full.svg")}}" alt="Logo">
+        <input placeholder="Student-ID" name="studentid" autocomplete="username" class="login_text_input drop-shadow" value="{{old('studentid')}}" type="text" id="studentid">
         @error('studentid')
         <p>{{$message}}</p>
         @enderror
-        <input placeholder="{{__('login_password')}}" name="password" class="login_text_input drop-shadow" type="password" id="password">
+        <input placeholder="{{__('login_password')}}" name="password" autocomplete="current-password" class="login_text_input drop-shadow" type="password" id="password">
         @error('password')
         <p>{{$message}}</p>
         @enderror

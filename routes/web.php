@@ -23,7 +23,7 @@ Route::redirect('/', "/en");
 Route::group(['prefix' => '{lang}', 'where' => ['lang' => 'en|nl']], function () {
 
     // Main dossier file
-    Route::get('/', [Dossier::class, 'index'])->middleware('auth');
+    Route::get('/', [Dossier::class, 'index'])->name('dossier')->middleware('auth');
 
     // Account overview
     Route::get('/account', [Account::class, 'index'])->middleware('auth');
@@ -42,9 +42,10 @@ Route::group(['prefix' => '{lang}', 'where' => ['lang' => 'en|nl']], function ()
 
     // Logout post request
     Route::post('/account/logout', [Account::class, 'logout'])->middleware('auth');
+
+    Route::post('/account/upload/avatar', [Account::class, 'uploadAvatar'])->middleware('auth');
+    
 });
-
-
 
 
 

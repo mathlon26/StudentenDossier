@@ -16,14 +16,21 @@ return new class extends Migration
             $table->foreignId('user_id')->constrained('users')->onDelete('cascade');
             $table->string('name');
             $table->string('lastname');
-            $table->string('email');
             $table->string('phonenumber');
-            $table->string('avatar_url');
+            $table->string('email');
+            $table->string('street');
+            $table->string('streetnumber');
+            $table->string('city');
+            $table->string('postalcode');
+            $table->string('country');
+            $table->string('birthday');
+            $table->string('gender');
             $table->string('class')->nullable();
             $table->string('level')->nullable();
             $table->string('category')->nullable();
             $table->json('weekschema')->nullable();
             $table->json('results')->nullable();
+            $table->string('avatar_url');
             $table->timestamps();
         });
     }

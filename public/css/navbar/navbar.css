@@ -20,6 +20,7 @@
 }
 .nav-item {
     min-height: var(--nav-height);
+    margin: 0 5px 0 5px;
 }
 .navbar-nav {
     min-height: var(--nav-height);
